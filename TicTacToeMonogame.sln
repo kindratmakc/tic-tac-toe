@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameRules", "GameRules\GameRules.csproj", "{12FAD2E6-46F3-4D29-A1C6-8D2196504C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameRulesTest", "GameRulesTest\GameRulesTest.csproj", "{298E3014-B6AA-4493-BB22-992EC6467AE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGameEngine", "MonoGameEngine\MonoGameEngine.csproj", "{B7F975AE-A365-477F-8B4A-06425A2DD07A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEngine", "ConsoleEngine\ConsoleEngine.csproj", "{85B7C898-F309-4971-AB5D-D667CDB5A595}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12FAD2E6-46F3-4D29-A1C6-8D2196504C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FAD2E6-46F3-4D29-A1C6-8D2196504C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FAD2E6-46F3-4D29-A1C6-8D2196504C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FAD2E6-46F3-4D29-A1C6-8D2196504C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298E3014-B6AA-4493-BB22-992EC6467AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298E3014-B6AA-4493-BB22-992EC6467AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298E3014-B6AA-4493-BB22-992EC6467AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298E3014-B6AA-4493-BB22-992EC6467AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F975AE-A365-477F-8B4A-06425A2DD07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F975AE-A365-477F-8B4A-06425A2DD07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F975AE-A365-477F-8B4A-06425A2DD07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F975AE-A365-477F-8B4A-06425A2DD07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85B7C898-F309-4971-AB5D-D667CDB5A595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B7C898-F309-4971-AB5D-D667CDB5A595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B7C898-F309-4971-AB5D-D667CDB5A595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B7C898-F309-4971-AB5D-D667CDB5A595}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
