@@ -101,8 +101,7 @@ public class TicTacToeGame : Game
     private GameSession CreateGameSession()
     {
         return new GameSession(
-            // new MinimaxPlayer(),
-            new RealPlayer(new MouseInput(GraphicsDevice)),
+            new MinimaxPlayer(),
             new RealPlayer(new MouseInput(GraphicsDevice))
         );
     }

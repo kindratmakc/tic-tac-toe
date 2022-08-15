@@ -6,8 +6,8 @@ public class RandomAIPlayer : IPlayer
 
     public Spot? ChooseSpot(IBoardProvider board)
     {
-        var emptySpots = board.GetEmptySpots();
+        var emptySpots = board.GetEmptySpots().ToList();
 
-        return emptySpots[_random.Next(emptySpots.Length)];
+        return emptySpots[_random.Next(emptySpots.Count)];
     }
 }

@@ -25,7 +25,7 @@ public class Game : IBoardProvider
 
     public char[,] GetBoard()
     {
-        return _board;
+        return (char[,])_board.Clone();
     }
 
     public State GetState()
@@ -52,22 +52,18 @@ public class Game : IBoardProvider
         CheckWinner();
     }
 
-    public Spot[] GetEmptySpots()
+    public IEnumerable<Spot> GetEmptySpots()
     {
-        var emptySpots = new List<Spot>();
-
-        for (int y = 0; y < 3; y++)
+        for (var y = 0; y < 3; y++)
         {
-            for (int x = 0; x < 3; x++)
+            for (var x = 0; x < 3; x++)
             {
                 if (_board[y, x] == (char)Symbols.Empty)
                 {
-                    emptySpots.Add(new Spot(x, y));
+                    yield return new Spot(x, y);
                 }
             }
         }
-
-        return emptySpots.ToArray();
     }
 
     public int GetEmptySpotsCount()

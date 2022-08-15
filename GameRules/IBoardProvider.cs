@@ -2,9 +2,11 @@
 
 public interface IBoardProvider : ICloneable
 {
+    public char[,] GetBoard();
+
     public void Check(Spot spot);
 
-    public Spot[] GetEmptySpots();
+    public IEnumerable<Spot> GetEmptySpots();
 
     public State GetState();
 
